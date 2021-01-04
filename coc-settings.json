@@ -43,6 +43,7 @@
     "yaml",
     "json",
     "python",
+    "go",
     "java"
   ],
   "coc.preferences.hoverTarget": "float",
@@ -111,6 +112,14 @@
       "command": "/home/chris/.luambenvs/neovim4/bin/lua-lsp",
       "filetypes": ["lua"],
       "trace.server": "verbose"
+    }
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
     }
   },
 

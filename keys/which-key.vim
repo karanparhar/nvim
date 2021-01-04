@@ -25,7 +25,7 @@ let g:which_key_map['?'] = 'search word'
 let g:which_key_use_floating_win = 0
 let g:which_key_max_size = 0
 
-" let g:which_key_position = 'botright'
+let g:which_key_position = 'botright'
 " let g:which_key_position = 'topleft'
 " let g:which_key_vertical = 1
 

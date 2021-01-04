@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
-
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   if exists('g:vscode')
     " Easy motion for VSCode
     " Plug 'asvetliakov/vim-easymotion'
@@ -111,8 +111,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugging
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
+    Plug 'tomasr/molokai'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    Plug 'preservim/tagbar'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
@@ -155,8 +157,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
     " Plug 'hardcoreplayers/spaceline.vim'
-    " Plug 'vim-airline/vim-airline'
-    " Plug 'vim-airline/vim-airline-themes'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     " Ranger
     " Plug 'francoiscabrol/ranger.vim'
     " Plug 'rbgrouleff/bclose.vim'
